@@ -1,0 +1,342 @@
+/* Front Page */
+
+body {
+background-image: url(./assets/bg2.jpg);
+margin: auto;
+padding: 0;
+background-repeat: no-repeat;
+background-color: black;
+font-family: 'Kanit', sans-serif;
+letter-spacing: -0,50px;
+}
+
+body img {
+    max-width: 100%;
+}
+
+header main {
+    display: flex;
+    gap: 10px;
+    position: relative;
+    float: right;
+    /*left: 900px;*/
+    margin-top: 15px;
+    margin-right: 12px;
+    align-items: center;
+}
+
+.home {
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    border-radius: 10px;
+    padding: 2px;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+
+.home1 {
+    background-color: #404040;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+}
+
+.home2 {
+    
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    border-radius: 10px;
+    padding: 2px;
+    width: 125px;
+    
+}
+
+.home3 {
+    background-color: #404040;
+    border-radius: 10px;
+}
+
+header li {
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+
+a:visited {
+    text-decoration: none;
+    font-style: white;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    color: #FFF;
+    width: 100%;
+    height: 100px;    
+    text-align: center;
+    line-height: 300px;
+}
+
+/* Como Funciona */
+
+h1 {
+    text-align: center;
+    font-style: italic;
+    line-height: 1px;
+    padding-top: 20px;
+    color: white;
+}
+
+h5 {
+    text-align: center;
+    font-style: italic;
+    line-height: 1px;
+    padding-bottom: 30px;
+    color: white
+}
+
+.ulwork {
+    margin-right: 10px;
+    color: white;
+    padding-top: 20px;
+}
+
+.ulwork li {
+    padding-bottom: 10px;
+}
+
+.work {
+    background-color: #404040;
+    height: 350px;
+    width: 350px;
+    font-size: small;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 0;
+    position: relative;
+    left: 800px;
+    top: 172px;
+}
+
+.work2 img {
+    max-width: 450px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    position: relative;
+    right: 245px;
+    bottom: 190px;
+}
+
+/* Planos */
+
+.plans {
+    background-color: #404040;
+    height: 350px;
+    width: 350px;
+    font-size: small;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 0;
+    position: relative;
+    left: 800px;
+    top: 172px;
+}
+
+.ulplans {
+    margin-right: 10px;
+    list-style: none;
+    color: white;
+    padding-top: 5px;
+}
+
+.ulplans li {
+    padding-bottom: 5px;
+    
+}
+    
+
+.ulplans img {
+    width: 20px;
+    height: 20px;
+    padding-right: 3px;
+    padding-top: 3px;
+    position: relative;
+    top: 5px;
+}
+
+
+
+.plans2 img {
+    max-width: 450px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    position: relative;
+    right: 265px;
+    bottom: 125px;
+}
+
+/* Gold */
+
+.gold {
+    background-color: #404040;
+    height: 350px;
+    width: 350px;
+    font-size: small;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 0;
+    position: relative;
+    left: 800px;
+    top: 172px;
+}
+
+.ulgold {
+    margin-right: 10px;
+    list-style: none;
+    color: white;
+    margin-left: 20px;
+    position: relative;
+    left: 30px;
+    top: 10px;
+}
+
+.ulgold img {
+    width: 15px;
+    height: 15px;
+    padding-right: 3px;
+    padding-top: 5px;
+}
+
+.gold2 img {
+    max-width: 450px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    position: relative;
+    right: 100px;
+    bottom: 100px;
+}
+
+/* Contact */
+
+.contact {
+    background-color: #404040;
+    height: 350px;
+    width: 350px;
+    font-size: small;
+    border-radius: 8px;
+    padding: 4px;
+    margin: 0;
+    position: relative;
+    left: 800px;
+    top: 172px;
+}
+
+.contact2 img {
+    max-width: 450px;
+    max-height: 350px;
+    width: auto;
+    height: auto;
+    position: relative;
+    right: 150px;
+    bottom: 100px;
+    
+}
+
+.wpp {
+    position: relative;
+    top: 30px;
+    left: 100px;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+}
+
+.disc img {
+    position: relative;
+    top: 5px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.disc {
+    position: relative;
+    top: 30px;
+    left: 100px;
+    color: white;
+    font-size: large;
+}
+
+/* Logo */
+
+.logo img {
+    position: relative;
+    width: 200px;
+    top: 390px;
+    left: 120px
+}
+
+.logo1 img {
+    position: relative;
+    width: 200px;
+    top: 32px;
+    left: 120px
+}
+
+/* Animation */
+
+header section {
+
+    background: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);;
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+}
+
+header section {
+    transition: transform .4s;
+}
+
+header section:hover {
+    transform: scale(1.1);
+}
+
+.work, .plans, .gold, .contact {
+    transition: transform .7s;
+    animation: FromTop .7s backwards;
+    animation-delay: .2s;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+@keyframes FromTop {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
